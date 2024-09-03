@@ -1,0 +1,67 @@
+.search-container {
+  width: 100%;
+  max-width: 450px;
+  margin: 0 auto 30px auto;
+  padding: 15px;
+}
+
+.react-select-async-paginate {
+  width: 100%;
+}
+
+.react-select__control {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.react-select__control--is-focused {
+  border-color: #007bff;
+  box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.2);
+}
+
+.react-select__input {
+  color: #333;
+  font-size: 16px;
+}
+
+.react-select__menu {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.react-select__option {
+  padding: 12px;
+  color: #333;
+  transition: background-color 0.3s ease;
+}
+
+.react-select__option--is-selected {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.react-select__option--is-focused {
+  background-color: #f1f1f1;
+}
+
+.react-select__placeholder {
+  color: #999;
+}
+
+.react-select__multi-value {
+  background-color: #007bff;
+  border-radius: 8px;
+}
+
+.react-select__multi-value__label {
+  color: #fff;
+}
+
+.react-select__multi-value__remove {
+  color: #fff;
+}

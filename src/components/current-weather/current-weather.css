@@ -61,3 +61,74 @@
   font-size: 16px;
   color: #fff;
 }
+
+.weather {
+  width: 90%;
+  max-width: 350px;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+  color: #fff;
+  background: linear-gradient(135deg, #4f4c4c, #1c1c1c);
+  margin: 30px auto;
+  padding: 25px;
+  text-align: center;
+}
+
+/* Make the banner scale properly on smaller screens */
+@media (max-width: 768px) {
+  .weather {
+    width: 80%;
+    padding: 20px;
+  }
+
+  .temperature {
+    font-size: 60px;
+  }
+
+  .weather-icon {
+    width: 70px;
+  }
+
+  .parameter-label, .parameter-value {
+    font-size: 14px;
+  }
+}
+
+/* Further adjustments for mobile devices */
+@media (max-width: 425) {
+  .weather {
+    width: 95%;
+    padding: 15px;
+  }
+
+  .city {
+    font-size: 18px;
+  }
+
+  .weather-description {
+    font-size: 16px;
+  }
+
+  .temperature {
+    font-size: 50px;
+    margin: 10px 0;
+  }
+
+  .weather-icon {
+    width: 60px;
+  }
+
+  .details {
+    padding-top: 15px;
+  }
+
+  .parameter-row {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .parameter-label, .parameter-value {
+    font-size: 12px;
+  }
+}

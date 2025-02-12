@@ -7,3 +7,23 @@
   box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
   padding: 40px;
 }
+/* For tablets and below */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    padding: 10px;
+  }
+  .weather-info {
+    font-size: 14px;
+  }
+}
+
+/* For mobile devices */
+@media (max-width: 480px) {
+  .weather-info {
+    font-size: 12px;
+  }
+  .search-bar {
+    width: 100%;
+  }
+}

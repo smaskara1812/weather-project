@@ -6,24 +6,39 @@
   border-radius: 15px;
   box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
   padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 /* For tablets and below */
 @media (max-width: 768px) {
   .container {
-    flex-direction: column;
-    padding: 10px;
-  }
-  .weather-info {
-    font-size: 14px;
+    width: 90%;
+    max-width: 100%;
+    padding: 20px;
   }
 }
 
 /* For mobile devices */
-@media (max-width: 480px) {
+@media (max-width: 425) {
+  .container {
+    width: 95%;
+    padding: 15px;
+  }
   .weather-info {
     font-size: 12px;
+    text-align: center;
   }
   .search-bar {
     width: 100%;
+    display: block;
   }
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.weather-info {
+  text-align: center;
 }
